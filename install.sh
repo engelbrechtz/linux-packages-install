@@ -2,6 +2,7 @@ sudo apt-get update
 sudo apt-get install snapd -y
 sudo snap install code --classic
 sudo snap install flutter --classic
+sudo apt-get install git -y
 sudo apt-get install nmap -y
 sudo apt-get install john -y 
 sudo apt-get install whatweb -y
