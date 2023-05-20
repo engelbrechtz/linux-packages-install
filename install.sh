@@ -14,6 +14,7 @@ sudo apt-get install sqlmap -y
 sudo apt-get install curl -y
 sudo apt-get install nodejs -y
 sudo apt-get install npm -y
+sudo apt-get install gobuster -y
 curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && chmod 755 msfinstall && ./msfinstall
 git clone https://github.com/LionSec/katoolin.git && cp katoolin/katoolin.py /usr/bin/katoolin
 chmod +x /usr/bin/katoolin
